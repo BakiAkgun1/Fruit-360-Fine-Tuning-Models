@@ -15,6 +15,10 @@ The Fruits-360 dataset was used for this project and can be accessed [here](http
 - **Splitting**: Divided into training, validation, and test sets.
 
 Principal Component Analysis (PCA) was applied to reduce dimensions while preserving 95% of variance, improving computational efficiency.
+![image](https://github.com/user-attachments/assets/f4a1e6dd-bcb3-4a76-b8e8-f85ee1a7245c)
+![image](https://github.com/user-attachments/assets/3afb790c-1352-4904-887d-1e3f101230e9)
+![image](https://github.com/user-attachments/assets/137ba70d-1b9b-4735-b84d-d74eddfb7fe5)
+
 
 ## Models and Training Methodology
 
@@ -44,6 +48,14 @@ Principal Component Analysis (PCA) was applied to reduce dimensions while preser
 | ResNet50   | Moderate               | Moderate               |
 | InceptionV3| Lower                  | Lower                  |
 
+### No Fine-Tuning Models
+![image](https://github.com/user-attachments/assets/24577371-fb8b-4304-bffd-7623de3de0d1)
+![image](https://github.com/user-attachments/assets/f22eef84-09d3-472c-9083-90c67af0d711)
+
+### Fine-Tuning Models
+![image](https://github.com/user-attachments/assets/af05206d-56f2-458d-bac4-f60b72cea906)
+![image](https://github.com/user-attachments/assets/3d999565-ecbd-4a91-8eee-024ecff563bc)
+
 Training and validation loss/accuracy plots showed the effectiveness of fine-tuning. Overfitting was mitigated using dropout and early stopping.
 
 ## Explainability with CAM Techniques
@@ -56,8 +68,13 @@ To enhance interpretability, the fine-tuned VGG16 model was analyzed using the f
 
 ### Visualization Examples
 
-- **Best Class**: Correctly classified fruit with clear activation regions.
-- **Worst Class**: Misclassified fruit with ambiguous activations.
+- **Best Class**: Correctly classified fruit with clear activation regions.(**VGG16 Fine-Tuning Model**)
+![image](https://github.com/user-attachments/assets/93609b1d-f130-4e9a-8bf6-780f482dfaae)
+![image](https://github.com/user-attachments/assets/7bc2b8b9-6676-425b-b5ec-1b326878fb57)
+
+- **Worst Class**: Misclassified fruit with ambiguous activations.(**ResNet50 Fine-Tuning Model**)
+![image](https://github.com/user-attachments/assets/9eceb87c-82d4-4a82-8861-a01454deb62e)
+![image](https://github.com/user-attachments/assets/db8035f6-ee45-4474-81e4-518aa525526d)
 
 ## Project Structure
 
