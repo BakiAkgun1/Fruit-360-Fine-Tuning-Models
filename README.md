@@ -21,6 +21,8 @@ Principal Component Analysis (PCA) was applied to reduce dimensions while preser
 
 
 ## Models and Training Methodology
+### Trained Models
+![image](https://github.com/user-attachments/assets/08114025-1e28-4995-b20f-3c742e17042a)
 
 ### Pretrained Models
 
@@ -69,8 +71,9 @@ To enhance interpretability, the fine-tuned VGG16 model was analyzed using the f
 ### Visualization Examples
 
 - **Best Class**: Correctly classified fruit with clear activation regions.(**VGG16 Fine-Tuning Model**)
-![image](https://github.com/user-attachments/assets/93609b1d-f130-4e9a-8bf6-780f482dfaae)
-![image](https://github.com/user-attachments/assets/7bc2b8b9-6676-425b-b5ec-1b326878fb57)
+![output](https://github.com/user-attachments/assets/d7eb2a7e-e563-4f07-b9bf-46c78e7f65da)
+![output png23](https://github.com/user-attachments/assets/ce4cc64e-c90a-4b95-8835-77f92743786e)
+
 
 - **Worst Class**: Misclassified fruit with ambiguous activations.(**ResNet50 Fine-Tuning Model**)
 ![image](https://github.com/user-attachments/assets/9eceb87c-82d4-4a82-8861-a01454deb62e)
