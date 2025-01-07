@@ -71,9 +71,8 @@ To enhance interpretability, the fine-tuned VGG16 model was analyzed using the f
 ### Visualization Examples
 
 - **Best Class**: Correctly classified fruit with clear activation regions.(**VGG16 Fine-Tuning Model**)
-![output](https://github.com/user-attachments/assets/d7eb2a7e-e563-4f07-b9bf-46c78e7f65da)
-![output png23](https://github.com/user-attachments/assets/ce4cc64e-c90a-4b95-8835-77f92743786e)
-
+![image](https://github.com/user-attachments/assets/ff014b45-9fc9-49cc-b8a8-6977dd38ca39)
+![image](https://github.com/user-attachments/assets/6ef15a97-a497-4669-b453-0abf3c96dbc1)
 
 - **Worst Class**: Misclassified fruit with ambiguous activations.(**ResNet50 Fine-Tuning Model**)
 ![image](https://github.com/user-attachments/assets/9eceb87c-82d4-4a82-8861-a01454deb62e)
